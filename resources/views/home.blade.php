@@ -7,6 +7,6 @@
     </head>
     <body>
         <h1>Homepage</h1>
-        <h2>Ciao {{ $nome }} !</h2>
+        <h2>Ciao {{ $nome }} {{ $cognome }}!</h2>
     </body>
 </html>

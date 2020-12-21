@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $data = [
-        'nome' => 'Sabrina'
+        'nome' => 'Sabrina',
+        'cognome' => 'Cunsolo'
     ];
     return view('home', $data);
 });
@@ -25,5 +26,12 @@ Route::get('/chi-siamo', function () {
 });
 
 Route::get('/contatti', function () {
-    return view('/contact-us');
+    $data = [
+        'staff' => [
+            'Andrea Rossi',
+            'Maria Bianchi',
+            'Luca Verdi',
+        ]
+    ];
+    return view('/contact-us', $data);
 });

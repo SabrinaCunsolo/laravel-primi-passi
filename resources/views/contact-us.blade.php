@@ -7,5 +7,11 @@
     </head>
     <body>
         <h1>Contattaci</h1>
+        <h3>Staff:</h3>
+        <ul>
+            @foreach ($staff as $dipendente)
+                <li> {{ $dipendente }} </li>
+            @endforeach
+        </ul>
     </body>
 </html>
