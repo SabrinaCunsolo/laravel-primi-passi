@@ -6,6 +6,10 @@
         <title>Laravel Primi Passi</title>
     </head>
     <body>
+        <ul>
+            <li> <a href="{{ route('storia-azienda') }}">Chi siamo</a> </li>
+            <li> <a href="{{ route('contatta-staff') }}">Contattaci</a> </li>
+        </ul>
         <h1>Homepage</h1>
         <h2>Ciao {{ $nome }} {{ $cognome }}!</h2>
     </body>

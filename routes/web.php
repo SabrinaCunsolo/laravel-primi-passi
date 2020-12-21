@@ -19,11 +19,11 @@ Route::get('/', function () {
         'cognome' => 'Cunsolo'
     ];
     return view('home', $data);
-});
+})->name('homepage');
 
 Route::get('/chi-siamo', function () {
     return view('/about');
-});
+})->name('storia-azienda');
 
 Route::get('/contatti', function () {
     $data = [
@@ -34,4 +34,4 @@ Route::get('/contatti', function () {
         ]
     ];
     return view('/contact-us', $data);
-});
+})->name('contatta-staff');
