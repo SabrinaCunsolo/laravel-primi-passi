@@ -6,6 +6,6 @@
         <title>Laravel Primi Passi</title>
     </head>
     <body>
-        <h1>Homepage</h1>
+        <h1>Chi siamo</h1>
     </body>
 </html>
