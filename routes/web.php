@@ -14,9 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = [
+        'nome' => 'Sabrina'
+    ];
+    return view('home', $data);
 });
 
 Route::get('/chi-siamo', function () {
     return view('/about');
+});
+
+Route::get('/contatti', function () {
+    return view('/contact-us');
 });

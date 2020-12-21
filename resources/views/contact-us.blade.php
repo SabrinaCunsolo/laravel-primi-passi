@@ -6,7 +6,6 @@
         <title>Laravel Primi Passi</title>
     </head>
     <body>
-        <h1>Homepage</h1>
-        <h2>Ciao {{ $nome }} !</h2>
+        <h1>Contattaci</h1>
     </body>
 </html>
